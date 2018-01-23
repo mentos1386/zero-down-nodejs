@@ -18,3 +18,5 @@ Where `:secret` is set in `master.js` on line 6 (default is `k0k0dajs`).
 
 Master will now fork new instances, wait for them to go online and drop
 old instances.
+
+Instance is available on `http://localhost:8080`
