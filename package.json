@@ -1,0 +1,24 @@
+{
+  "name": "zero-down-nodejs",
+  "version": "0.0.0",
+  "description": "Zero Downtime Updater Client for NodeJS Edit",
+  "main": "master.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mentos1386/zero-down-nodejs.git"
+  },
+  "author": "Mentos1386 <mentos1386 at tjo dot space>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mentos1386/zero-down-nodejs/issues"
+  },
+  "homepage": "https://github.com/mentos1386/zero-down-nodejs#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
