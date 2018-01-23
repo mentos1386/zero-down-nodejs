@@ -6,7 +6,7 @@ const app     = express();
 const VERSION = 'ALPHA';
 // const VERSION = 'BETA';
 
-const SIMULATE_LOAD_TIME = 10000; // 10 seconds
+const SIMULATE_LOAD_TIME = (Math.floor(Math.random() * (11)) + 5) * 1000; // Random between 5s and 15s
 
 /**
  * Initiate instance
