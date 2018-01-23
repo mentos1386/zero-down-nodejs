@@ -6,6 +6,8 @@ const app     = express();
 const VERSION = 'ALPHA';
 // const VERSION = 'BETA';
 
+const SIMULATE_LOAD_TIME = 10000; // 10 seconds
+
 /**
  * Initiate instance
  * @param port
@@ -27,6 +29,6 @@ exports.init = async ( port ) => {
         if ( err ) return reject(err);
         resolve();
       })
-    }, 1000) // Wait 1 sec before starting to listen
+    }, SIMULATE_LOAD_TIME)
   })
 };
